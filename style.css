@@ -2,10 +2,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* delete border afterwards. added to see boxes easier*/
+    border: 1px solid rgb(153, 153, 153);
 }
 
 body { 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f9faf8;
-    /* don't forget to add line height */
+    /* add line-height? */
 }
+
+.container {
+    display: flex;
+    /* max-width makes the text make itself utilize full width of page; makes text be in the middle all the time and makes it easier to read */
+    max-width: 1100px;
+    /*margin 0 auto makes text centered all the time and makes both of its sides to be same size all the time */
+    margin: 0 auto;
+    /* add default padding; even if shrink to smallest width there will be at least 30px on both sides of page */
+    /* padding: 0 30px; */
+}
+
+.nav-bar .container,
+.header .container,
+.footer {
+    background-color: #1f2937;
+}
+
+.button,
+.c-t-a .container {
+    background-color: #3882f6;
+}
+
+.quotation .container {
+    background-color: #e5e7eb;
+}
+
+h1, 
+.header-logo {
+    color: #f9faf8;
+}
+
+
