@@ -22,8 +22,8 @@ body {
     /* padding: 0 30px; */
 }
 
-.nav-bar .container,
-.header .container,
+.nav-bar,
+.header,
 .footer {
     background-color: #1f2937;
 }
@@ -33,7 +33,7 @@ body {
     background-color: #3882f6;
 }
 
-.quotation .container {
+.quotation {
     background-color: #e5e7eb;
 }
 
@@ -42,4 +42,29 @@ h1,
     color: #f9faf8;
 }
 
+.nav-bar {
+    padding: 16px 0;
+}
 
+.nav-bar .container {
+    /* already flex container bc already commanded 'display: flex' for all .container before so no need to command again */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul.header-links {
+    display: flex;
+    list-style: none;
+}
+
+/* when I added .header-links li, text-decoration and color didn't work didn't work, it only worked for .header-links a */
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    margin-left: 10px;
+}
