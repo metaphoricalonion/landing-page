@@ -48,7 +48,8 @@ body {
 h1, 
 .header-logo,
 button,
-h3.cta-header {
+h3.cta-header,
+.footer {
     color: #f9faf8;
 }
 
@@ -210,4 +211,11 @@ q {
 
 .button.cta {
     border: 2px solid #f9faf8;
+}
+
+
+.footer .container {
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
 }
