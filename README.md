@@ -5,4 +5,5 @@ I will be creating a simple landing page. I will be using HTML, CSS and the Flex
 - Layout all the different items in the page using Flexbox
 - Use HTML to add all the contents of the page
 - Use CSS to style the page
-- Seperate the page into different sections
+- Separate the page into different sections
+- Keep my commits atomic
