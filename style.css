@@ -47,7 +47,8 @@ body {
 
 h1, 
 .header-logo,
-button {
+button,
+h3.cta-header {
     color: #f9faf8;
 }
 
@@ -78,7 +79,8 @@ ul.header-links {
 }
 
 .header-links a,
-p.hero-subtext {
+p.hero-subtext,
+.cta-subtext {
     color: #e5e7eb;
 }
 
@@ -192,4 +194,20 @@ q {
     font-style: italic;
     padding-left: 45px;
     margin-bottom: 10px;
+}
+
+.c-t-a .container {
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.c-t-a {
+    padding: 80px 30px;
+}
+
+.button.cta {
+    border: 2px solid #f9faf8;
 }
