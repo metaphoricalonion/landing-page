@@ -88,6 +88,8 @@ p.hero-subtext,
 /* I had a property above for all .containers, if I only add 100px 0 for this .header .container it will overwrite it, so I jusst typed 100px 30px */
 .header .container {
     padding: 100px 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero {
@@ -132,6 +134,7 @@ p.hero-subtext {
     align-items: center;
     text-align: center;
     min-width: 500px;
+    min-height: 250px;
     color: white;
 }
 
@@ -217,5 +220,5 @@ q {
 .footer .container {
     justify-content: center;
     align-items: center;
-    padding: 35px 0;
+    padding: 20px 0;
 }
