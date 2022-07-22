@@ -7,3 +7,6 @@ I will be creating a simple landing page. I will be using HTML, CSS and the Flex
 - Use CSS to style the page
 - Separate the page into different sections
 - Keep my commits atomic
+
+**Live:**
+[https://metaphoricalonion.github.io/landing-page/](https://metaphoricalonion.github.io/landing-page/)
